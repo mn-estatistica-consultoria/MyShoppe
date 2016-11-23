@@ -346,6 +346,28 @@
           "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/MvvmHelpers.dll": {}
         }
       },
+      "SQLite.UWP.Native/3.12.3": {
+        "compile": {
+          "lib/uap10.0/_._": {}
+        },
+        "runtime": {
+          "lib/uap10.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win10-arm/native/sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win10-arm"
+          },
+          "runtimes/win10-x64/native/sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x86/native/sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win10-x86"
+          }
+        }
+      },
       "SQLitePCL/3.8.7.2": {
         "compile": {
           "lib/netcore451/SQLitePCL.dll": {}
@@ -2306,6 +2328,17 @@
           "runtimes/win8-arm/native/mscorrc.dll": {}
         }
       },
+      "SQLite.UWP.Native/3.12.3": {
+        "compile": {
+          "lib/uap10.0/_._": {}
+        },
+        "runtime": {
+          "lib/uap10.0/_._": {}
+        },
+        "native": {
+          "runtimes/win10-arm/native/sqlite3.dll": {}
+        }
+      },
       "SQLitePCL/3.8.7.2": {
         "compile": {
           "lib/netcore451/SQLitePCL.dll": {}
@@ -4103,6 +4136,17 @@
         },
         "runtime": {
           "runtimes/win8-aot/lib/netcore50/System.Private.DataContractSerialization.dll": {}
+        }
+      },
+      "SQLite.UWP.Native/3.12.3": {
+        "compile": {
+          "lib/uap10.0/_._": {}
+        },
+        "runtime": {
+          "lib/uap10.0/_._": {}
+        },
+        "native": {
+          "runtimes/win10-arm/native/sqlite3.dll": {}
         }
       },
       "SQLitePCL/3.8.7.2": {
@@ -5914,6 +5958,17 @@
           "runtimes/win7-x64/native/mscorrc.dll": {}
         }
       },
+      "SQLite.UWP.Native/3.12.3": {
+        "compile": {
+          "lib/uap10.0/_._": {}
+        },
+        "runtime": {
+          "lib/uap10.0/_._": {}
+        },
+        "native": {
+          "runtimes/win10-x64/native/sqlite3.dll": {}
+        }
+      },
       "SQLitePCL/3.8.7.2": {
         "compile": {
           "lib/netcore451/SQLitePCL.dll": {}
@@ -7711,6 +7766,17 @@
         },
         "runtime": {
           "runtimes/win8-aot/lib/netcore50/System.Private.DataContractSerialization.dll": {}
+        }
+      },
+      "SQLite.UWP.Native/3.12.3": {
+        "compile": {
+          "lib/uap10.0/_._": {}
+        },
+        "runtime": {
+          "lib/uap10.0/_._": {}
+        },
+        "native": {
+          "runtimes/win10-x64/native/sqlite3.dll": {}
         }
       },
       "SQLitePCL/3.8.7.2": {
@@ -9522,6 +9588,17 @@
           "runtimes/win7-x86/native/mscorrc.dll": {}
         }
       },
+      "SQLite.UWP.Native/3.12.3": {
+        "compile": {
+          "lib/uap10.0/_._": {}
+        },
+        "runtime": {
+          "lib/uap10.0/_._": {}
+        },
+        "native": {
+          "runtimes/win10-x86/native/sqlite3.dll": {}
+        }
+      },
       "SQLitePCL/3.8.7.2": {
         "compile": {
           "lib/netcore451/SQLitePCL.dll": {}
@@ -11319,6 +11396,17 @@
         },
         "runtime": {
           "runtimes/win8-aot/lib/netcore50/System.Private.DataContractSerialization.dll": {}
+        }
+      },
+      "SQLite.UWP.Native/3.12.3": {
+        "compile": {
+          "lib/uap10.0/_._": {}
+        },
+        "runtime": {
+          "lib/uap10.0/_._": {}
+        },
+        "native": {
+          "runtimes/win10-x86/native/sqlite3.dll": {}
         }
       },
       "SQLitePCL/3.8.7.2": {
@@ -13736,6 +13824,19 @@
         "runtimes/win8-arm/native/mscordbi.dll",
         "runtimes/win8-arm/native/mscorrc.debug.dll",
         "runtimes/win8-arm/native/mscorrc.dll"
+      ]
+    },
+    "SQLite.UWP.Native/3.12.3": {
+      "sha512": "oL32u5+gAL1Pc15IPWATH+g4hPlWRhzxp5bFCvLA0IKALo7oc3kPLFAzLwNCPN3iu0WgleM0lSr+rP+v8yIh/g==",
+      "type": "package",
+      "path": "SQLite.UWP.Native/3.12.3",
+      "files": [
+        "SQLite.UWP.Native.3.12.3.nupkg.sha512",
+        "SQLite.UWP.Native.nuspec",
+        "lib/uap10.0/_._",
+        "runtimes/win10-arm/native/sqlite3.dll",
+        "runtimes/win10-x64/native/sqlite3.dll",
+        "runtimes/win10-x86/native/sqlite3.dll"
       ]
     },
     "SQLitePCL/3.8.7.2": {
@@ -16891,8 +16992,9 @@
       ]
     },
     "Xamarin.Forms.Maps/2.2.0.31": {
-      "sha512": "jPgaaQhzzy3K+i1eHxfjEcAGDjZqeXAzgeMBMbdyBIlEdyn6+6RLKFOBNw1zO4LPMeXdalXi7Vhjs+b0ASu92w==",
+      "sha512": "2AQ5hj3R3p5QRyiw8s95+5aM6AeyheAZFjuY7yWyKRns6Vfx0u6F56bl4x0zVsHxeVeQmZoRom8I4ykxEMOxzA==",
       "type": "package",
+      "path": "Xamarin.Forms.Maps/2.2.0.31",
       "files": [
         "Xamarin.Forms.Maps.2.2.0.31.nupkg.sha512",
         "Xamarin.Forms.Maps.nuspec",
@@ -16964,6 +17066,7 @@
       "Newtonsoft.Json >= 8.0.3",
       "PCLStorage >= 1.0.2",
       "Refractored.MvvmHelpers >= 1.0.1",
+      "SQLite.UWP.Native >= 3.12.3",
       "SQLitePCL >= 3.8.7.2",
       "Xam.Plugin.Connectivity >= 2.1.2",
       "Xam.Plugin.EmbeddedResource >= 1.0.1",
